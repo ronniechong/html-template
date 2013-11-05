@@ -1,0 +1,151 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+
+/**** DEFAULT SETUP ******/
+h1{}
+
+h2{}
+
+h3{}
+
+h4{}
+
+h5{}
+
+img{
+	outline: 0;
+  	vertical-align: bottom;
+}
+
+p{}
+
+a:link {}    
+
+a:visited {}  
+
+a:hover {}  
+
+a:active {}  
+
+em,i {font-style: italic;}
+
+strong,b {font-weight: 700;}
+
+ul {list-style: outside disc;}
+
+ul li {margin-left: 3em;}
+
+ol {list-style: outside decimal;}
+
+ol li {margin-left: 3em;}
+
+
+/*No styling for lists*/
+
+.fmt-list{list-style: none;}
+
+.fmt-list li{margin: 0;}
+
+input, textarea, button, select {
+  margin: 0;
+  font-size: 100%;
+  line-height: normal;
+  vertical-align: baseline;
+}
+
+textarea {overflow: auto;}
+
+/**** LAYOUT ******/
+html{}
+
+body{
+	font-size: 100%;
+ 	font-family: Arial, sans-serif;
+  	background-color: white;
+}
+
+.page{}
+
+.page-header{}
+
+.page-footer{}
+
+.page-body{}
+
+/**** NAVIGATION ***/
+.nav-header{}
+
+.nav-footer{}
+
+
+
+/**** COMMON ***/
+.clear{clear:both;}
+
+.clear-left{clear:left;}
+
+.clear-right{clear:right;}
+
+.float-left{float:left;}
+
+.float-right{float:right;}
+
+.text-left{text-align:left;}
+
+.text-right{text-align:right;}
+
+.text-center{text-align:center;}
