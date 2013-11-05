@@ -7,7 +7,7 @@
 	//Include local scripts
 	function scriptheader(){
 ?>
-	
+	<script src="_assets/js/localscript.js"></script>
 
 <?php
 	}
